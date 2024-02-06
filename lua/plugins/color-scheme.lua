@@ -1,15 +1,13 @@
-if false then
-  return {}
-end
 return {
   {
     "rose-pine/neovim",
     "edeneast/nightfox.nvim",
+    { "catppuccin/nvim" },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordfox",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }

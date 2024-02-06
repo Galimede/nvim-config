@@ -9,7 +9,7 @@ return {
         settings = {
           options = {
             rulePaths = {
-              "/home/flo/Projects/clever-components/eslint-rules",
+              "/home/mathieu/dev/clever-cloud/clever-components/eslint-rules",
             },
           },
           workingDirectory = {
