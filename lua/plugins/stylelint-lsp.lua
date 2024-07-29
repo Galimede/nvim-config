@@ -17,7 +17,7 @@ return {
               autoFixOnSave = true,
               autoFixOnFormat = true,
               cssInJs = true,
-              customSyntax = "@stylelint/postcss-css-in-js",
+              customSyntax = "postcss-lit",
               validate = {
                 "css",
                 "less",

@@ -3,3 +3,9 @@
 -- Add any additional keymaps here
 -- position cursor at the end of the word in Insert mode
 vim.keymap.set("n", "<a-a>", "ce<c-r>-")
+
+vim.keymap.set("n", "d", '"_d')
+vim.keymap.set("n", "<leader>d", "d")
+
+vim.keymap.set("n", "c", '"_c')
+vim.keymap.set("n", "<leader>c", "c")
